@@ -1,3 +1,5 @@
+//Q1) Given a list of integers, find out all the even numbers exist in the list using Stream functions? list=[2,34,678,3]
+
 import java.util.List;
 import java.util.stream.Collectors;
 
