@@ -8,6 +8,7 @@ public class Concatenate {
         Stream<Integer> concatenatedStream = Stream.concat(stream1, stream2);
  
         concatenatedStream.forEach(System.out::println);
+        System.out.println("Done");
     }
 }
  
