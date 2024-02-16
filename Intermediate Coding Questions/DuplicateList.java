@@ -14,8 +14,9 @@ public class DuplicateList {
     }
     public static List<Integer> findNonDuplicatesUsingSet(List<Integer> numbers){
         Set<Integer> notseen = new HashSet<>();
-        return numbers.stream().filter(n-> notseen.add(n))
-                    .collect(Collectors.toList());
+        return numbers.stream()
+                      .filter(n-> notseen.add(n))
+                      .collect(Collectors.toList());
     }
     public static void main(String[] args) {
         List<Integer> allList = Arrays.asList(2, 3, 4, 5, 6, 4, 5);
